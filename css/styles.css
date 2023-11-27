@@ -1,34 +1,34 @@
 :root {
-  --brand-color: #2196f3;
-  --main-color: #212121; /* txt, hdr, btn */
-  --main-gray-color: #757575; /* p */
+  --brand-color: #4d5ae5;
+  --main-color: #2e2f42; /* txt, hdr, btn */
+  --main-gray-color: #434455; /* p */
   --background-dark-color: #2f303a; /*order, footer*/
   --background-gray-color: #f5f4fa; /* team bg, button bg */
-  --white-color: #fff; /* main bg, active txt, logo ftr */
+  --white-color: #ffffff; /* main bg, active txt, logo ftr */
   --black-color: #000; /* logo hdr*/
-  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --footer-contacts-color: #e7e9fc;
 }
 
 body {
   font-style: normal;
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: var(--main-color);
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: 0,03em;
-  background-color: var(--white-color)
+  letter-spacing: 0, 03em;
+  background-color: var(--white-color);
 }
 
 /*   logo   */
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   text-decoration: none;
 }
 .logo-web {
-  color: var(--brand-color); 
+  color: var(--brand-color);
 }
 
 .logo-studio-black {
@@ -55,40 +55,40 @@ body {
 }
 .navigation .link:focus,
 .navigation .link:hover {
-  color: var(--brand-color)
+  color: var(--brand-color);
 }
 /*   header contact   */
 .contacts-header .contact {
   text-decoration: none;
   color: var(--main-gray-color);
-  }
+}
 .contacts-header .contact:hover,
 .contacts-header .contact:focus {
-   color: var(--brand-color);
-  }
+  color: var(--brand-color);
+}
 /*   main pages   */
 
 .order {
   background-color: var(--background-dark-color);
 }
 
-.order-text  {
+.order-text {
   font-size: 44px;
   color: var(--white-color);
   text-align: center;
   font-weight: 900;
   line-height: 1.36;
-  letter-spacing: 0,06em;
+  letter-spacing: 0, 06em;
 }
 
 .order-button {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: var(--white-color);
   text-align: center;
   font-weight: 700;
   line-height: 1.875;
-  letter-spacing: 0,06em;
+  letter-spacing: 0, 06em;
   background-color: var(--brand-color);
   border-style: hidden;
   cursor: pointer;
@@ -144,16 +144,16 @@ body {
 /*   main portfolio   */
 
 .filter-buttons {
-  list-style: none ;
+  list-style: none;
 }
 
 .filter-buttons button {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   text-align: center;
   font-weight: 500;
   line-height: 1.625;
-  letter-spacing: 0,03em;
+  letter-spacing: 0, 03em;
   background-color: var(--background-gray-color);
   border-style: hidden;
   border-radius: 4px;
@@ -177,7 +177,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
-  letter-spacing: 0,06em;
+  letter-spacing: 0, 06em;
 }
 .portfolio-gallery p {
   font-size: 16px;
